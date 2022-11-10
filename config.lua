@@ -114,13 +114,7 @@ Config.items = {
      ['backpack1'] = {
           slots = 10,
           size = 100000,
-          male = {
-               ["bag"] = { item = 85, texture = 12 }
-          },
-
-          female = {
-               ["bag"] = { item = 45, texture = 0 }
-          }
+          prop = props.backpack,
      },
      ['backpack2'] = {
           slots = 20,
@@ -128,6 +122,7 @@ Config.items = {
           male = {
                ["bag"] = { item = 85, texture = 12 }
           },
+
           female = {
                ["bag"] = { item = 85, texture = 13 }
           }

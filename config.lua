@@ -113,18 +113,24 @@ Config.maximum_allowed = 2
 Config.items = {
      ['backpack1'] = {
           slots = 10,
-          size = 100000,
-          prop = props.backpack,
-     },
-     ['backpack2'] = {
-          slots = 20,
-          size = 200000,
+          size = 50000,
           male = {
-               ["bag"] = { item = 85, texture = 12 }
+               ["bag"] = { item = 31, texture = 0 }
           },
 
           female = {
-               ["bag"] = { item = 85, texture = 13 }
+               ["bag"] = { item = 31, texture = 2 }
+          }
+     },
+     ['backpack2'] = {
+          slots = 20,
+          size = 100000,
+          male = {
+               ["bag"] = { item = 81, texture = 1 }
+          },
+
+          female = {
+               ["bag"] = { item = 81, texture = 7 }
           }
      },
      ['briefcase'] = {

@@ -115,7 +115,7 @@ Config.items = {
           slots = 10,
           size = 50000,
           male = {
-               ["bag"] = { item = 31, texture = 0 }
+               ["bag"] = { item = 31, texture = 0 } -- if cloth are under other categories change the `["bag"]` or something else for example `["hat"]` = { item = 2, texture = 0 } 
           },
 
           female = {
@@ -159,9 +159,9 @@ Config.Blacklist_items = {
      list = {
           'weapon_rpg'
      },
-     -- backpack2 = {
-     --      ['lockpick'] = true
-     -- }
+     backpack1 = {
+          ['lockpick'] = true
+     }
 }
 
 Config.Whitelist_items = {
@@ -170,7 +170,6 @@ Config.Whitelist_items = {
           ['bandage'] = true,
           ['ifaks'] = true,
           ['painkillers'] = true,
-          ['walkstick'] = true,
      },
      fishicebox = {
           ['stingray'] = true,

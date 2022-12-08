@@ -114,13 +114,7 @@ Config.items = {
      ['backpack1'] = {
           slots = 10,
           size = 50000,
-          male = {
-               ["bag"] = { item = 31, texture = 0 } -- if cloth are under other categories change the `["bag"]` or something else for example `["hat"]` = { item = 2, texture = 0 } 
-          },
-
-          female = {
-               ["bag"] = { item = 31, texture = 2 }
-          }
+          prop = props.backpack
      },
      ['backpack2'] = {
           slots = 20,

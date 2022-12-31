@@ -286,7 +286,7 @@ QBCore.Functions.CreateUseableItem('briefcaselockpicker', function(source, item)
           metadata.locked = true
           TriggerClientEvent('keep-backpack:client:lockpick', source, metadata)
           Player.Functions.RemoveItem('briefcaselockpicker', 1)
-          TriggerClientEvent('qb-inventory:client:ItemBox', source, QBCore.Shared.Items['briefcaselockpicker'], "remove")
+          TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items['briefcaselockpicker'], "remove")
           return
      end
 end)
